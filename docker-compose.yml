@@ -1,0 +1,40 @@
+services:
+  client:
+    container_name: client
+    # build: client
+    image: athenaalpha/athena-alpha-client:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 42443:443
+
+  db:
+    container_name: db
+    # build: db
+    image: athenaalpha/athena-alpha-db:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    ports:
+      - 3306:3306
+
+  server:
+    container_name: server
+    # build: server
+    image: athenaalpha/athena-alpha-server:latest
+    restart: on-failure
+    stop_grace_period: 1m
+    depends_on: [ "db" ]
+    ports:
+      - 4000:4000
+
+  # phpmyadmin:
+  #   container_name: phpmyadmin
+  #   image: phpmyadmin
+  #   restart: on-failure
+  #   stop_grace_period: 1m
+  #   depends_on: [ "db" ]
+  #   environment:
+  #     PMA_HOST: db
+  #     PMA_PORT: 3306
+  #   ports:
+  #     - 8000:80
