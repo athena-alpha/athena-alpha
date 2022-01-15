@@ -1,16 +1,16 @@
 services:
   client:
     container_name: client
-    # build: client
+    # build: ../athena-alpha-client
     image: athenaalpha/athena-alpha-client:latest
     restart: on-failure
     stop_grace_period: 1m
     ports:
-      - 42443:443
+      - 443:443
 
   db:
     container_name: db
-    # build: db
+    # build: ../athena-alpha-db
     image: athenaalpha/athena-alpha-db:latest
     restart: on-failure
     stop_grace_period: 1m
@@ -19,11 +19,11 @@ services:
 
   server:
     container_name: server
-    # build: server
+    # build: ../athena-alpha-server
     image: athenaalpha/athena-alpha-server:latest
     restart: on-failure
     stop_grace_period: 1m
-    depends_on: [ "db" ]
+    # depends_on: [ "db" ]
     ports:
       - 4000:4000
 
@@ -38,3 +38,4 @@ services:
   #     PMA_PORT: 3306
   #   ports:
   #     - 8000:80
+  
