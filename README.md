@@ -23,7 +23,7 @@ Plan and track weddings, vacations, weight loss goals or life long dreams, priva
 - Set priorities, targets, add notes, start / end dates
 - Easily share plans with others
 
-## 🛠 Installation
+## 🛠 ⚙️ Installation
 
 For installation instructions please visit [https:/athena-alpha.com/docs](https:/athena-alpha.com/docs)
 
