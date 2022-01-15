@@ -1,5 +1,3 @@
-# Athena Alpha
-
 <h1 align="center">Athena Alpha</h1>
 <h3 align="center">Your Life: Organised and Private</h3>
 
