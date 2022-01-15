@@ -23,7 +23,7 @@ services:
     image: athenaalpha/athena-alpha-server:latest
     restart: on-failure
     stop_grace_period: 1m
-    # depends_on: [ "db" ]
+    depends_on: [ "db" ]
     ports:
       - 4000:4000
 
@@ -38,4 +38,3 @@ services:
   #     PMA_PORT: 3306
   #   ports:
   #     - 8000:80
-  
