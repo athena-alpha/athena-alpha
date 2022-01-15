@@ -5,7 +5,7 @@ Obsessively private, world class software to help better yourself and the rest o
 
 ## Features
 
-### Your Data: Private & Controlled By You
+#### Your Data: Private & Controlled By You
 Running Athena Alpha on your own server gives you the ultimate control over your data. No more centralised "free" services [selling your private data](https://www.eff.org/deeplinks/2020/03/google-says-it-doesnt-sell-your-data-heres-how-company-shares-monetizes-and) to data brokers, [getting hacked](https://en.wikipedia.org/wiki/List_of_data_breaches) or secretly sharing it with governments. Your data has nothing to do with someone else's business model. It's part of your private life, and now it can all be stored by you, at home, with a world class interface, for free.
 
 ### Your Finances: Beautiful & Automatic
@@ -31,7 +31,7 @@ Plan and track weddings, vacations, weight loss goals or life long dreams, priva
 
 For installation instructions please visit [https:/athena-alpha.com/docs](https:/athena-alpha.com/docs)
 
-## 🎹 Services orchestrated
+## 🎹 Orchestration
 
 - [`Athena Alpha Client`](https://github.com/athena-alpha/athena-alpha-client)
 - [`Athena Alpha Server`](https://github.com/athena-alpha/athena-alpha-server)
