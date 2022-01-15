@@ -1,4 +1,5 @@
-# Athena Alpha - You: Harder, Better, Faster, Stronger, Richer
+# Athena Alpha
+You: Harder, Better, Faster, Stronger, Richer
 
 [![Twitter](https://img.shields.io/twitter/follow/athena_alpha_?style=social)](https://twitter.com/athena_alpha_)
 
