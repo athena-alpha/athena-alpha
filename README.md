@@ -1,7 +1,7 @@
 # Athena Alpha - [![Twitter](https://img.shields.io/twitter/follow/athena_alpha_?style=social)](https://twitter.com/athena_alpha_)
 
 ### You: Harder, Better, Faster, Stronger, Richer
-Obsessively private, world class software to help better yourself and the rest of humanity. Open source and free to run on your server. This is the master repository of Athena Alpha and contains the framework for orchestration of all containerized services.
+Obsessively private, world class software to help better yourself and the rest of humanity. Free to run on your server. This is the master repository of Athena Alpha and contains the framework for orchestration of all containerized services.
 
 ## 🔥 Features
 
